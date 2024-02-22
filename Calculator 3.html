@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+<style>
+    button{
+        border-color: black;
+        box-shadow: inset;
+        height: 85px;
+        width: 85px;
+        
+    }
+    .answerplace{
+        width:340px;
+        height:90px;
+        font-size: 90px;
+        text-align: center;        
+    }
+</style>
+</head>
+<body>
+    
+    <div class="container">
+        <div id="answerplace">
+            <table>
+            <th></th>
+                <td style="border:none"></td>
+                <td><p><input class="answerplace" style="border-style: dashed" type="text" id="numbers"></p></td>
+            </table>
+        </div>
+        <div class="calculator">    
+        <table>
+        <th></th>    
+        <tr>
+          <td></p><button onclick="printone()">1</button></p></td>
+          <td><p><button onclick="printtwo()">2</button></p></td>
+          <td><p><button onclick="printthree()">3</button></p></td>
+        </tr>
+        <tr>
+          <td><p><button onclick="printfour()">4</button></p></td>
+          <td><p><button onclick="printfive()">5</button></p></td>
+          <td><p><button onclick="printsix()">6</button></p></td>
+        </tr>
+        <tr>
+            <td><p><button onclick="printseven()">7</button></p></td>
+            <td><p><button onclick="printeight()">8</button></p></td>
+            <td><p><button onclick="printnine()">9</button></p></td>
+        </tr>
+        <tr>
+            <td><p><button onclick="minus()">-</button></p></td>
+            <td><p><button onclick="printzero()">0</button></p></td>
+            <td><p><button onclick="plus()">+</button></p></td>
+        </tr>
+        <tr>
+            <td><p></p><td>
+            <td><p><button onclick="equalto()">=</button></p></td>
+            <td><p></p><td>
+        </tr>
+      </table>
+    </div>
+    </div>
+
+<script>
+
+    var saveno = 0;
+    var op = false;
+    var bplus = false;
+    var bminus = false;
+
+function printone(){
+    if(op){
+        document.getElementById("numbers").value = "";
+        op = false;
+    }
+    document.getElementById("numbers").value += "1";
+}    
+function printtwo(){
+    if(op){
+        document.getElementById("numbers").value = "";
+        op = false;
+    }
+    document.getElementById("numbers").value += "2";
+}
+function printthree(){
+    if(op){
+        document.getElementById("numbers").value = "";
+        op = false;
+    }
+    document.getElementById("numbers").value += "3";
+}
+function printfour(){
+    if(op){
+        document.getElementById("numbers").value = "";
+        op = false;
+    }
+    document.getElementById("numbers").value += "4";
+}
+function printfive(){
+    if(op){
+        document.getElementById("numbers").value = "";
+        op = false;
+    }
+    document.getElementById("numbers").value += "5";
+}
+function printsix(){
+    if(op){
+        document.getElementById("numbers").value = "";
+        op = false;
+    }
+    document.getElementById("numbers").value += "6";
+}
+function printseven(){
+    if(op){
+        document.getElementById("numbers").value = "";
+        op = false;
+    }
+    document.getElementById("numbers").value += "7";
+}
+
+function printeight(){
+    if(op){
+        document.getElementById("numbers").value = "";
+        op = false;
+    }
+    document.getElementById("numbers").value += "8";
+}
+function printnine(){
+    if(op){
+        document.getElementById("numbers").value = "";
+        op = false;
+    }
+    document.getElementById("numbers").value += "9";
+}
+function printzero(){
+    if(op){
+        document.getElementById("numbers").value = "";
+        op = false;
+    }
+    document.getElementById("numbers").value += "0";
+}
+function plus(){
+    bplus = true;
+    bminus = false;
+    op = true;
+    saveno += parseInt(document.getElementById("numbers").value); 
+}
+function minus(){
+    op = true;
+    bminus = true;
+    
+    if(bplus)
+    {
+        var numb2 = parseInt(document.getElementById("numbers").value);
+        saveno += numb2;
+        bplus = false;
+        
+        document.getElementById("numbers").value = saveno.toString();
+        
+        return;
+        
+    }
+    
+    if(saveno == 0){
+        saveno = parseInt(document.getElementById("numbers").value);
+        
+        return;
+        
+    }
+    
+}
+
+function equalto(){
+    
+    var numb2 = parseInt(document.getElementById("numbers").value);
+    
+    if(bplus)
+    {
+        saveno += numb2;
+        document.getElementById("numbers").value = saveno.toString();
+        bplus = false;
+
+        return;
+
+    }
+    
+    if(bminus)
+    {
+        saveno -= numb2;
+        document.getElementById("numbers").value = saveno.toString();
+        bminus = false;
+
+        return;
+
+    }
+    
+}  
+
+function JAdd(num1, num2)
+{
+   return num1 + num2;
+}
+function JSub(num1, num2)
+{
+   return num1 - num2;
+}
+function JMult(num1, num2)
+{
+   return num1 * num2;
+}
+function JDiv(num1, num2)
+{
+   return num1 / num2;
+}
+
+</script>
+
+</body>
+</html>
