@@ -1,0 +1,86 @@
+{
+    "HTML": [
+      {"Question":"What does HTML stand for?","Options":["Home Tool Markup Language","Hyperlinks and Text Markup Language","Hyper Text Markup Language","Hyperlinking Text Marking Language"],"Answer":2},
+      {"Question":"Which tag is used to create a hyperlink?","Options":["<link>","<a>","<href>","<hyper>"],"Answer":1},
+      {"Question":"What tag defines an unordered list?","Options":["<ol>","<ul>","<li>","<list>"],"Answer":1},
+      {"Question":"Which attribute specifies the URL of an image?","Options":["src","href","alt","url"],"Answer":0},
+      {"Question":"How do you define a table row?","Options":["<td>","<th>","<tr>","<table>"],"Answer":2},
+      {"Question":"Which tag is used for the largest heading?","Options":["<h1>","<head>","<heading>","<h6>"],"Answer":0},
+      {"Question":"How do you add a comment in HTML?","Options":["// comment","<!-- comment -->","/* comment */","# comment"],"Answer":1},
+      {"Question":"Which tag makes text italic?","Options":["<i>","<em>","<italic>","Both <i> and <em>"],"Answer":3},
+      {"Question":"How do you create a dropdown list?","Options":["<select>","<input type=\"dropdown\">","<list>","<option>"],"Answer":0},
+      {"Question":"Which tag is used to create an input field?","Options":["<input>","<form>","<field>","<textbox>"],"Answer":0}
+    ],
+    "CSS": [
+      {"Question":"What does CSS stand for?","Options":["Computer Style Sheets","Creative Style Sheets","Cascading Style Sheets","Colorful Style Sheets"],"Answer":2},
+      {"Question":"How do you include an external CSS file?","Options":["<css src=\"style.css\">","<link rel=\"stylesheet\" href=\"style.css\">","@import \"style.css\";","<style src=\"style.css\">"],"Answer":1},
+      {"Question":"Which property changes the text color?","Options":["font-color","text-color","color","font-style"],"Answer":2},
+      {"Question":"How do you set the margin on all sides to 10px?","Options":["margin: 10px;","padding: 10px;","margin-all: 10px;","space: 10px;"],"Answer":0},
+      {"Question":"Which selector targets an element by its id?","Options":[".idName","#idName","*idName","idName"],"Answer":1},
+      {"Question":"How do you apply a class selector?","Options":["#className",".className","class=\"className\"","*className"],"Answer":1},
+      {"Question":"Which property makes text bold?","Options":["font-weight: bold;","text-weight: bold;","font-style: bold;","text-style: bold;"],"Answer":0},
+      {"Question":"How do you center text inside an element?","Options":["text-align: center;","align: center;","center-text: true;","justify-content: center;"],"Answer":0},
+      {"Question":"Which property is used to create space inside an element?","Options":["margin","padding","spacing","gap"],"Answer":1},
+      {"Question":"How do you make an element float to the left?","Options":["float: left;","position: left;","align: left;","side: left;"],"Answer":0}
+    ],
+    "JavaScript": [
+      {"Question":"Which syntax declares a function?","Options":["function myFunc(){}","def myFunc(){}","func myFunc(){}","create function myFunc(){}"],"Answer":0},
+      {"Question":"How do you write a comment in JavaScript?","Options":["<!-- comment -->","# comment","// comment","/* comment */"],"Answer":2},
+      {"Question":"Which keyword declares a block-scoped variable?","Options":["var","let","const","Both let and const"],"Answer":3},
+      {"Question":"How do you create an alert box?","Options":["alertBox('Hello');","msg('Hello');","alert('Hello');","popup('Hello');"],"Answer":2},
+      {"Question":"Which method is used to select an element by its ID?","Options":["getElementByName()","getElementById()","querySelector()","selectById()"],"Answer":1},
+      {"Question":"How do you add an event listener for clicks?","Options":["onclick()","addEventListener('click', func)","listen('click', func)","on('click', func)"],"Answer":1},
+      {"Question":"Which operator is used for strict equality?","Options":["=","==","===","!=="],"Answer":2},
+      {"Question":"How do you convert a JSON string into an object?","Options":["JSON.stringify()","JSON.parse()","parseJSON()","JSON.toObject()"],"Answer":1},
+      {"Question":"Which syntax creates an arrow function?","Options":["=> function()","function =>()","() => {}","function() => {}"],"Answer":2},
+      {"Question":"How do you handle errors in JavaScript?","Options":["try/catch","if/error","handle(error)","catch(error)"],"Answer":0}
+    ],
+    "Python": [
+      {"Question":"How do you define a function in Python?","Options":["function my_func():","def my_func():","func my_func():","define my_func():"],"Answer":1},
+      {"Question":"How do you write a single-line comment?","Options":["// comment","# comment","<!-- comment -->","/* comment */"],"Answer":1},
+      {"Question":"Which data structure is ordered and immutable?","Options":["list","tuple","set","dict"],"Answer":1},
+      {"Question":"How do you start a for loop?","Options":["for i in range(5):","for (i=0; i<5; i++):","foreach i in range(5):","loop i in range(5):"],"Answer":0},
+      {"Question":"How do you handle exceptions?","Options":["try/except","catch/exception","begin/rescue","handle/except"],"Answer":0},
+      {"Question":"Which keyword is used to import modules?","Options":["import","include","using","require"],"Answer":0},
+      {"Question":"How do you open a file for reading?","Options":["open('file', 'r')","file.open('r')","read('file')","open_file('file')"],"Answer":0},
+      {"Question":"How do you create a class?","Options":["class MyClass: pass","class MyClass {}","def class MyClass:","create class MyClass:"],"Answer":0},
+      {"Question":"Which comprehension creates a list?","Options":["[x for x in iterable]","{x for x in iterable}","(x for x in iterable)","<x for x in iterable>"],"Answer":0},
+      {"Question":"How do you add an item to a list?","Options":["list.add(item)","list.append(item)","list.insert(item)","list.push(item)"],"Answer":1}
+    ],
+    "PHP": [
+      {"Question":"What does PHP stand for?","Options":["Personal Home Page","Private Home Page","PHP: Hypertext Preprocessor","Preprocessed Hypertext Page"],"Answer":2},
+      {"Question":"How do you echo text?","Options":["print('Hello');","echo 'Hello';","println('Hello');","output('Hello');"],"Answer":1},
+      {"Question":"Which symbol prefixes variables?","Options":["#","$","@","&"],"Answer":1},
+      {"Question":"How do you write a single-line comment?","Options":["// comment","# comment","<!-- comment -->","Both // and #"],"Answer":3},
+      {"Question":"How do you include another file?","Options":["import 'file.php';","include 'file.php';","require 'file.php';","Both include and require"],"Answer":3},
+      {"Question":"How do you start a session?","Options":["session_start();","start_session();","init_session();","session_begin();"],"Answer":0},
+      {"Question":"How do you connect to MySQL using PDO?","Options":["new PDO(...)","mysql_connect()","mysqli_connect()","db_connect()"],"Answer":0},
+      {"Question":"How do you define a function?","Options":["function myFunc(){}","def myFunc(){}","func myFunc(){}","function: myFunc(){}"],"Answer":0},
+      {"Question":"Which loop iterates over arrays?","Options":["for","while","foreach","loop"],"Answer":2},
+      {"Question":"How do you concatenate strings?","Options":["+",".",",","&"],"Answer":1}
+    ],
+    "SQL": [
+      {"Question":"Which keyword retrieves data from a database?","Options":["GET","SELECT","FETCH","READ"],"Answer":1},
+      {"Question":"How do you insert a new record?","Options":["INSERT INTO","ADD RECORD","CREATE RECORD","NEW INTO"],"Answer":0},
+      {"Question":"Which clause filters records?","Options":["WHERE","HAVING","FILTER","GROUP BY"],"Answer":0},
+      {"Question":"How do you update existing records?","Options":["UPDATE table","MODIFY table","ALTER table","CHANGE table"],"Answer":0},
+      {"Question":"Which command deletes records?","Options":["REMOVE","DELETE FROM","DROP","CLEAR"],"Answer":1},
+      {"Question":"How do you create a table?","Options":["CREATE TABLE","NEW TABLE","MAKE TABLE","TABLE CREATE"],"Answer":0},
+      {"Question":"Which clause joins tables on a condition?","Options":["JOIN ON","INNER JOIN","MERGE ON","LINK ON"],"Answer":1},
+      {"Question":"How do you sort results in descending order?","Options":["ORDER BY DESC","SORT DESC","ORDER DESC","BY DESC"],"Answer":0},
+      {"Question":"Which function counts rows?","Options":["COUNT()","SUM()","TOTAL()","NUMBER()"],"Answer":0},
+      {"Question":"How do you limit results to 5 rows?","Options":["LIMIT 5","TOP 5","FETCH FIRST 5 ROWS","ROWNUM <= 5"],"Answer":0}
+    ],
+    "C#": [
+      {"Question":"What is the entry point of a C# console application?","Options":["Main() method","Start() method","Init() method","Entry() method"],"Answer":0},
+      {"Question":"How do you declare an integer variable?","Options":["int x;","integer x;","var x;","num x;"],"Answer":0},
+      {"Question":"Which syntax writes a single-line comment?","Options":["// comment","/* comment */","# comment","<!-- comment -->"],"Answer":0},
+      {"Question":"How do you define a class?","Options":["class MyClass {}","MyClass class {}","define class MyClass {}","create class MyClass {}"],"Answer":0},
+      {"Question":"How do you instantiate an object?","Options":["var obj = new MyClass();","MyClass obj();","new MyClass obj;","instantiate MyClass obj;"],"Answer":0},
+      {"Question":"Which loop iterates while a condition is true?","Options":["for","while","foreach","do-while"],"Answer":1},
+      {"Question":"How do you handle exceptions?","Options":["try/catch","catch/try","handle/exception","error/try"],"Answer":0},
+      {"Question":"Which keyword makes a method accessible only within its class?","Options":["public","private","protected","internal"],"Answer":1},
+      {"Question":"How do you add a reference to System namespace?","Options":["using System;","import System;","include System;","namespace System;"],"Answer":0},
+      {"Question":"Which collection is ordered and allows duplicates?","Options":["HashSet<T>","Dictionary<TKey,TValue>","List<T>","SortedSet<T>"],"Answer":2}
+    ]
+  }

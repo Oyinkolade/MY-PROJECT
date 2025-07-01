@@ -1,0 +1,55 @@
+{
+  "HTML": {
+    "DocumentStructure": {
+      "Doctype": "<!DOCTYPE html> � Declares HTML5 document type and ensures standards mode rendering.",
+      "HtmlElement": "<html lang=\"en\">�</html> � Root element, with `lang` for accessibility and SEO.",
+      "HeadSection": "<head>�</head> � Metadata container: `<title>`, `<meta>`, links to CSS/JS.",
+      "BodySection": "<body>�</body> � All visible page content goes here."
+    },
+    "BasicTags": {
+      "Headings": {
+        "h1�h6": "Define section headings; `<h1>` is highest level, `<h6>` the lowest."
+      },
+      "Paragraph": {
+        "p": "`<p>`�`</p>` � Wraps a block of text as a paragraph."
+      },
+      "LineBreak": {
+        "br": "`<br>` � Inserts a line break (no closing tag)."
+      }
+    },
+    "SemanticElements": {
+      "Header": " `<header>` � Introductory content, site-wide header or page section header.  :contentReference[oaicite:0]{index=0}",
+      "Nav": " `<nav>` � Navigation links.",
+      "Main": " `<main>` � Primary page content, unique per document.",
+      "Section": " `<section>` � Thematic grouping of content, with optional heading.",
+      "Article": " `<article>` � Independent, self-contained content, like a blog post.",
+      "Aside": " `<aside>` � Sidebar or tangential content.",
+      "Footer": " `<footer>` � Footer for section or whole page."
+    },
+    "Attributes": {
+      "Global": "Every HTML element accepts global attributes: `id`, `class`, `style`, `title`, `data-*` :contentReference[oaicite:1]{index=1}",
+      "Link": "`<a href=\"URL\" target=\"_blank\" rel=\"noopener\">` � Anchor/link element with external-visit safety.",
+      "Image": "`<img src=\"path\" alt=\"description\" width=\"�\" height=\"�\">` � Embeds images; `alt` is mandatory for accessibility."
+    },
+    "ListsAndTables": {
+      "UnorderedList": "`<ul>` with `<li>` children � Bulleted list.",
+      "OrderedList": "`<ol>` with `<li>` � Numbered list.",
+      "DescriptionList": "`<dl>`, `<dt>`, `<dd>` � Term-definition pairs.",
+      "Table": "`<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>` � Tabular data markup."
+    },
+    "Forms": {
+      "Form": "`<form action=\"�\" method=\"get|post\">` � Form container.",
+      "Input": "`<input type=\"text|email|password|�\" name=\"�\" required>` � Various input types.",
+      "Label": "`<label for=\"inputId\">` � Associates text with a form control.",
+      "Textarea": "`<textarea name=\"�\" rows=\"�\" cols=\"�\">` � Multi-line text input.",
+      "Select": "`<select><option>�</option></select>` � Dropdown."
+    },
+    "Multimedia": {
+      "Image": "`<img>` � See Attributes.",
+      "Audio": "`<audio controls><source src=\"�\" type=\"audio/mpeg\"></audio>` � Embeds sound.",
+      "Video": "`<video controls width=\"�\"><source src=\"�\" type=\"video/mp4\"></video>` � Embeds video.",
+      "Embed": "`<embed src=\"�\" type=\"application/pdf\">` � Generic embedded resource.",
+      "Iframe": "`<iframe src=\"�\" width=\"�\" height=\"�\"></iframe>` � Inline frame for other pages."
+    }
+  }
+}

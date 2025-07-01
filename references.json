@@ -1,0 +1,38 @@
+{
+    "HTML": {
+      "Key Concepts": "Document structure, semantic tags, and accessibility are crucial. Use semantic elements to ensure that your content is meaningful and accessible.",
+      "Examples": "Example: <article><header>Site Title</header><p>Some content here...</p></article>",
+      "Additional Resources": "W3C HTML specification, MDN HTML documentation."
+    },
+    "CSS": {
+      "Key Concepts": "Understanding the box model, selectors, specificity, and inheritance is essential.",
+      "Examples": "Example: .container { display: flex; }",
+      "Additional Resources": "MDN CSS documentation, CSS-Tricks."
+    },
+    "JavaScript": {
+      "Key Concepts": "Event handling, DOM manipulation, and asynchronous programming form the core of interactive web pages.",
+      "Examples": "Example: function greet() { console.log('Hello, world!'); }",
+      "Additional Resources": "MDN JavaScript documentation, Eloquent JavaScript."
+    },
+    "Python": {
+      "Key Concepts": "Readable syntax, dynamic typing, and a vast standard library make Python versatile.",
+      "Examples": "Example: def greet(name): return f'Hello, {name}!'",
+      "Additional Resources": "Python official documentation, Real Python."
+    },
+    "PHP": {
+      "Key Concepts": "Server-side logic, database connectivity, and session management are key.",
+      "Examples": "Example: <?php echo 'Hello, world!'; ?>",
+      "Additional Resources": "PHP.net, Laravel documentation."
+    },
+    "SQL": {
+      "Key Concepts": "Table relationships, normalization, indexing, and query optimization are essential for database management.",
+      "Examples": "Example: SELECT * FROM Customers WHERE Country = 'USA';",
+      "Additional Resources": "W3Schools SQL tutorial, SQLZoo."
+    },
+    "C#": {
+      "Key Concepts": "Encapsulation, inheritance, and polymorphism form the foundation of object-oriented programming in C#.",
+      "Examples": "Example: public class Car { public string Model { get; set; } }",
+      "Additional Resources": "Microsoft C# documentation, Pluralsight courses."
+    }
+  }
+  
