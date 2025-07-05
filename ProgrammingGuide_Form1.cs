@@ -97,7 +97,7 @@ namespace Programming_Guide
             textBoxSearch.AutoCompleteCustomSource = auto;
 
 #if NET6_0_OR_GREATER
-            textBoxSearch.PlaceholderText = "Search Here…";
+            textBoxSearch.PlaceholderText = "Search Hereâ€¦";
 #endif
         }
 
