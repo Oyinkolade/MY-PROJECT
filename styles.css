@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('food.jpg'); /* Use the uploaded image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Prevents body scrolling */
+}
+
+.container {
+    text-align: center;
+    background-color: bisque;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    height: 90vh; /* Ensure the container takes most of the viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#recipeOutput {
+    margin-top: 20px;
+    color: #555;
+    overflow-y: auto; /* Enable vertical scrolling */
+    flex-grow: 1; /* Allow it to grow and take available space */
+    padding-right: 10px; /* Add some padding for scroll bar */
+}
+
+.recipe {
+    margin-bottom: 20px;
+}
+
+.recipe h2 {
+    margin: 10px 0;
+}
+
+.recipe ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe li {
+    background: rgba(255, 255, 255, 0.8);
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 4px;
+}
